@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.image-description {
+    text-align: start;
+    margin: 1px 0;
+}
+
+.small-size
+{
+    font-size: 100%;
+    margin-top: 5px;
+    font-style: italic;
+    /* text-align: end; */
+}
+
+.full-image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.copete{
+    font-size: 150%
+}
+
+.container{
+    max-width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+p.medium-size
+{
+    font-size: 110%;
+    /* margin: 20% */
+    margin: 20px 0; /* Margen para el párrafo */
+}
+
+.ulist {
+    list-style-type: disc; /* Tipo de puntos */
+    margin: 20px 0; /* Margen para la lista */
+    padding-left: 20px; /* Sangría para la lista */
+}
+
+.ilist {
+    margin: 10px 0; /* Separación entre elementos de la lista */
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+    align-items: center;
+}
+
+.icon-button {
+    background-color: #007BFF; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Relleno */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    display: flex; /* Para alinear el ícono y el texto */
+    align-items: center; /* Centra verticalmente */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.icon-button i {
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
+    font-size: 24px; /* Tamaño del ícono */
+}
+
+.icon-button:hover {
+    background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+h4{
+    font-size: 200%;
+}
